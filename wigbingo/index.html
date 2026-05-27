@@ -286,12 +286,26 @@
     letter-spacing: 0.03em;
   }
 
-  @media (max-width: 480px) {
-    .cell { min-height: 64px; font-size: 10px; padding: 5px 4px; }
-    .bingo-letter { font-size: 22px; }
-    .wordmark-women { font-size: 34px; }
-    .wordmark-gis { font-size: 28px; }
-    .event-title { font-size: 28px; }
+  @media (max-width: 540px) {
+    body { padding: 1rem 0.5rem 2rem; }
+    .bingo-wrap { padding: 0.6rem; border-radius: 12px; }
+    .bingo-grid { gap: 3px; }
+    .bingo-header-row { gap: 3px; }
+    .cell { min-height: 58px; font-size: 9.5px; padding: 4px 3px; line-height: 1.35; border-radius: 6px; }
+    .bingo-letter { font-size: 20px; }
+    .wordmark-women { font-size: 32px; }
+    .wordmark-gis { font-size: 26px; }
+    .event-title { font-size: 26px; }
+    .subtitle { font-size: 12px; }
+    .sponsors { font-size: 10.5px; }
+    .instructions { font-size: 12px; padding: 0.75rem; }
+    .actions { gap: 6px; }
+    button { font-size: 14px; padding: 7px 14px; }
+  }
+
+  @media (max-width: 380px) {
+    .cell { min-height: 52px; font-size: 9px; padding: 3px 2px; }
+    .bingo-letter { font-size: 18px; }
   }
 </style>
 </head>
